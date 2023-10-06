@@ -35,7 +35,6 @@ sequenceDiagram
     deactivate server
 
     note: user input is sent to the server, Form data is sent with an HTTP post
-
 ```
 
 
