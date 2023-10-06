@@ -1,6 +1,7 @@
 
 
 ```mermaid
+
 sequenceDiagram
     participant browser
     participant server
@@ -31,7 +32,7 @@ sequenceDiagram
 
     browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note
     activate server
-    server-->>browser: page is rerendered
+    server-->>browser: page is rerendered 
     deactivate server
 
     Note right of browser:: user input is sent to the server, Form data is sent with an HTTP post
