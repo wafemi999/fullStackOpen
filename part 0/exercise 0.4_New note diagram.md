@@ -34,7 +34,7 @@ sequenceDiagram
     server-->>browser: page is rerendered
     deactivate server
 
-    note: user input is sent to the server, Form data is sent with an HTTP post
+    Note right of browser:: user input is sent to the server, Form data is sent with an HTTP post
 
 ```
 
