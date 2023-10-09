@@ -1,3 +1,5 @@
+```mermaid
+
 sequenceDiagram
     participant browser
     participant server
@@ -31,3 +33,7 @@ sequenceDiagram
     deactivate server
 
     Note right of browser: When you now create a new note, you'll notice that the browser sends only one request to the server. The POST request to the address new_note_spa contains the new note as JSON data containing both the content of the note (content) and the timestamp (date)
+
+
+
+```
