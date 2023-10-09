@@ -35,6 +35,6 @@ sequenceDiagram
     server-->>browser: The server responds with status code 201 created. This time the server does not ask for a redirect
     deactivate server
 
-   When you now create a new note, you'll notice that the browser sends only one request to the server. The POST request to the address new_note_spa contains the new note as JSON data containing both the content of the note (content) and the timestamp (date)
+    Note right of browser:: When you now create a new note, you'll notice that the browser sends only one request to the server. The POST request to the address new_note_spa contains the new note as JSON data containing both the content of the note (content) and the timestamp (date)
 
 ```
